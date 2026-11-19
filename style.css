@@ -177,9 +177,9 @@ h3{font-size:20px}
 }
 
 /* ---------- Фоновый узор ---------- */
-body{background-image:url(img/pattern-blue.svg?v=2);background-size:260px 260px}
-.section--tint{background-image:url(img/pattern-blue.svg?v=2);background-size:260px 260px}
-.section--dark,#contacts{background-image:url(img/pattern-white.svg?v=2);background-size:260px 260px}
+body{background-image:url(img/pattern-blue.svg?v=3);background-size:260px 260px}
+.section--tint{background-image:url(img/pattern-blue.svg?v=3);background-size:260px 260px}
+.section--dark,#contacts{background-image:url(img/pattern-white.svg?v=3);background-size:260px 260px}
 @media (max-width:520px){
   body,.section--tint,.section--dark,#contacts{background-size:200px 200px}
 }
