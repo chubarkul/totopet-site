@@ -183,3 +183,21 @@ body{background-image:url(img/pattern-blue.svg?v=3);background-size:260px 260px}
 @media (max-width:520px){
   body,.section--tint,.section--dark,#contacts{background-size:200px 200px}
 }
+
+/* ---------- Эффект стекла на карточках ---------- */
+.card,.step,.shops{
+  background:linear-gradient(135deg,rgba(255,255,255,.72),rgba(255,255,255,.42));
+  -webkit-backdrop-filter:blur(12px) saturate(1.5);backdrop-filter:blur(12px) saturate(1.5);
+  border:1px solid rgba(255,255,255,.85);
+  box-shadow:0 14px 34px -18px rgba(9,27,51,.32),inset 0 1px 0 rgba(255,255,255,.9);
+}
+.fact{
+  background:linear-gradient(135deg,rgba(255,255,255,.13),rgba(255,255,255,.04));
+  -webkit-backdrop-filter:blur(12px) saturate(1.4);backdrop-filter:blur(12px) saturate(1.4);
+  border:1px solid rgba(255,255,255,.2);border-top:3px solid var(--sand);
+  box-shadow:0 14px 34px -18px rgba(0,0,0,.5),inset 0 1px 0 rgba(255,255,255,.14);
+}
+.card__icon{background:rgba(2,77,116,.1)}
+@media (max-width:520px){
+  .fact{border-top:1px solid rgba(255,255,255,.2);border-left:3px solid var(--sand)}
+}
