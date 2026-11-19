@@ -133,7 +133,7 @@ h3{font-size:20px}
   h1{font-size:34px}
   .hero .lead{font-size:16px;line-height:1.5}
   .hero__cta{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:20px}
-  .hero__cta .btn{padding:14px 10px;font-size:15px;text-align:center}
+  .hero__cta .btn{padding:13px 6px;font-size:14.5px;text-align:center;white-space:nowrap}
 
   .section{padding:52px 0}
   h2{font-size:27px}
