@@ -45,7 +45,10 @@ h3{font-size:20px}
 .hero__art{position:relative;height:480px;display:grid;place-items:center}
 .blob{position:absolute;width:400px;height:400px;background:var(--sand-light);border-radius:46% 54% 60% 40%/50% 42% 58% 50%;animation:morph 12s ease-in-out infinite}
 @keyframes morph{50%{border-radius:58% 42% 38% 62%/42% 60% 40% 58%}}
-.packimg{position:relative;height:440px;width:auto;transform:rotate(-5deg);filter:drop-shadow(0 28px 34px rgba(9,27,51,.32))}
+.packimg{position:relative;height:440px;width:auto;rotate:-5deg;filter:drop-shadow(0 28px 34px rgba(9,27,51,.32));animation:floaty 7s ease-in-out infinite;transition:scale .45s cubic-bezier(.2,.7,.2,1);will-change:translate}
+.packimg:hover{scale:1.05}
+@keyframes floaty{0%,100%{translate:0 0;rotate:-5deg}25%{translate:3px -9px;rotate:-4.2deg}50%{translate:0 -14px;rotate:-5.4deg}75%{translate:-3px -7px;rotate:-5.8deg}}
+@media (prefers-reduced-motion:reduce){.packimg,.blob{animation:none}}
 
 .section{padding:88px 0}
 .section--tint{background:var(--tint)}
