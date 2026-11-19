@@ -175,3 +175,11 @@ h3{font-size:20px}
   .blob{width:200px;height:200px}
   h1{font-size:30px}
 }
+
+/* ---------- Фоновый узор ---------- */
+body{background-image:url(img/pattern-blue.svg);background-size:260px 260px}
+.section--tint{background-image:url(img/pattern-blue.svg);background-size:260px 260px}
+.section--dark,#contacts{background-image:url(img/pattern-white.svg);background-size:260px 260px}
+@media (max-width:520px){
+  body,.section--tint,.section--dark,#contacts{background-size:200px 200px}
+}
